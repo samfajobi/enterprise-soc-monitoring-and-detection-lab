@@ -87,7 +87,33 @@ This installs:
 
 ⏳ Installation may take **10–20 minutes**.
 
+---
 
+## Step 5: Save Generated Credentials
+
+At the end of installation, Wazuh will display credentials similar to:
+
+```text
+Username: admin
+Password: <generated-password>
+```
+
+⚠️ **Save this securely** — it is required to access the dashboard.
+
+---
+
+## Step 6: Access the Wazuh Dashboard
+
+From your browser:
+
+```text
+https://<WAZUH_SERVER_IP>
+```
+
+Example:
+
+```text
+https://192.168.100.20
 ```
 
 
