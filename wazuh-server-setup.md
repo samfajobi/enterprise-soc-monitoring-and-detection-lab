@@ -116,7 +116,36 @@ Example:
 https://192.168.100.20
 ```
 
+Accept the self-signed certificate warning.
 
+Login using:
+
+* **Username:** admin
+* **Password:** (generated earlier)
+
+---
+
+## Step 7: Verify Wazuh Services
+
+Check that all services are running:
+
+```bash
+sudo systemctl status wazuh-manager
+sudo systemctl status wazuh-indexer
+sudo systemctl status wazuh-dashboard
+```
+
+All services should show **active (running)**.
+
+---
+
+## Step 8: Open Required Firewall Ports (If Enabled)
+
+```bash
+sudo ufw allow 1514/udp
+sudo ufw allow 1515/tcp
+sudo ufw allow 443/tcp
+sudo ufw reload
 ```
 
 ---
