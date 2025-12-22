@@ -102,7 +102,27 @@ Password: <generated-password>
 
 ---
 
-## Step 6: Access the Wazuh Dashboard
+## Step 6: Verify Wazuh Services
+
+Check that all services are running:
+
+```bash
+sudo systemctl status wazuh-manager
+sudo systemctl status wazuh-indexer
+sudo systemctl status wazuh-dashboard
+```
+
+All services should show **active (running)**.
+
+---
+
+![Wazuh-setup-1](screenshots/wazuh-setup-1.png)
+
+![Wazuh-setup-1](screenshots/wazuh-setup-2.png)
+
+![Wazuh-setup-1](screenshots/wazuh-setup-3.png)
+
+## Step 7: Access the Wazuh Dashboard
 
 From your browser:
 
@@ -124,25 +144,6 @@ Login using:
 * **Password:** (generated earlier)
 
 ---
-
-## Step 7: Verify Wazuh Services
-
-Check that all services are running:
-
-```bash
-sudo systemctl status wazuh-manager
-sudo systemctl status wazuh-indexer
-sudo systemctl status wazuh-dashboard
-```
-
-All services should show **active (running)**.
-
----
-![Wazuh-setup-1](screenshots/wazuh-setup-1.png)
-
-![Wazuh-setup-1](screenshots/wazuh-setup-2.png)
-
-![Wazuh-setup-1](screenshots/wazuh-setup-3.png)
 
 ![Wazuh-setup-1](screenshots/wazuh-setup-4.png)
 
