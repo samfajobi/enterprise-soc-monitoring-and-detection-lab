@@ -18,3 +18,55 @@ Before enrolling the Windows Server, ensure the following:
 
 ## Step 1: Create a Wazuh Agent Entry
 
+1. Log in to the **Wazuh Dashboard**
+2. Navigate to:
+   **Agents → Deploy new agent**
+3. Select:
+
+   * **Operating System:** Windows
+   * **Architecture:** (x64 or x86 depending on your server)
+4. Copy the generated **agent installation and enrollment commands**
+
+---
+
+## Step 2: Install the Wazuh Agent on Windows Server
+
+1. Log in to the Windows Server
+2. Open **PowerShell as Administrator**
+3. Run the provided Wazuh agent installation command, for example:
+
+```powershell
+msiexec.exe /i wazuh-agent-<version>.msi /qn
+```
+
+*(Version may vary depending on your Wazuh release)*
+
+---
+
+## Step 3: Enroll the Agent with the Wazuh Manager
+
+After installation, enroll the agent by running the enrollment command copied from the dashboard:
+
+```powershell
+"C:\Program Files (x86)\ossec-agent\agent-auth.exe" -m <WAZUH_MANAGER_IP>
+```
+
+This command registers the Windows Server with the Wazuh Manager.
+
+---
+
+## Step 4: Start the Wazuh Agent Service
+
+Start and verify the agent service:
+
+```powershell
+net start wazuh
+```
+
+Confirm the service is running:
+
+```powershell
+sc query wazuh
+```
+
+---
