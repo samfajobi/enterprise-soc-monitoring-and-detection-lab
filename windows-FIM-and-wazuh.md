@@ -30,3 +30,45 @@ This project demonstrates how to **configure and monitor File Integrity Monitori
 ```
 
 ---
+
+## Tools & Technologies
+- Wazuh SIEM/XDR
+- Windows Server
+- Windows Security Event Logs
+- PowerShell
+- MITRE ATT&CK Framework
+
+---
+
+## Why File Integrity Monitoring Matters
+File integrity monitoring helps detect:
+- Unauthorized configuration changes
+- Persistence mechanisms
+- Tampering with system or application files
+- Insider threats
+- Malware attempting to hide or modify artifacts
+
+FIM is commonly used in **enterprise SOCs, regulated environments, and compliance-driven organizations**.
+
+---
+
+## Monitored Directories (Example)
+The following directories were selected due to their security relevance:
+
+- `C:\Windows\System32`
+- `C:\Program Files`
+- `C:\SensitiveData` (custom test directory)
+
+These locations often contain files targeted during post-exploitation and persistence activities.
+
+---
+
+## Step 1: Configure File Integrity Monitoring on Windows Server
+
+On the Windows Server, edit the Wazuh agent configuration file:
+
+```
+
+C:\Program Files (x86)\ossec-agent\ossec.conf
+
+````
