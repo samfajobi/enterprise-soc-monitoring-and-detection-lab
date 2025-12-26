@@ -72,3 +72,61 @@ On the Windows Server, edit the Wazuh agent configuration file:
 C:\Program Files (x86)\ossec-agent\ossec.conf
 
 ````
+
+Add or update the FIM configuration:
+
+```xml
+<syscheck>
+  <disabled>no</disabled>
+  <frequency>3600</frequency>
+
+  <directories check_all="yes">C:\Windows\System32</directories>
+  <directories check_all="yes">C:\Program Files</directories>
+  <directories check_all="yes">C:\SensitiveData</directories>
+</syscheck>
+````
+
+Restart the Wazuh agent service:
+
+```powershell
+Restart-Service WazuhSvc
+```
+
+---
+
+## Step 2: (Optional) Enable Windows Object Access Auditing
+
+To enrich investigations, enable file auditing in Windows:
+
+1. Open `secpol.msc`
+2. Navigate to:
+
+```
+Advanced Audit Policy Configuration →
+Object Access →
+Audit File System
+```
+
+3. Enable **Success** and **Failure**
+
+This allows correlation with **Windows Security Event ID 4663**.
+
+---
+
+## Step 3: Generate File Integrity Events
+
+Create and modify files to simulate activity:
+
+```powershell
+New-Item C:\SensitiveData\testfile.txt
+Add-Content C:\SensitiveData\testfile.txt "Test modification"
+Remove-Item C:\SensitiveData\testfile.txt
+```
+
+These actions simulate:
+
+* File creation
+* File modification
+* File deletion
+
+---
