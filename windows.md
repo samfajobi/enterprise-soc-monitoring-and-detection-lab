@@ -224,22 +224,3 @@ GitHub: [https://github.com/samfajobi](https://github.com/samfajobi)
 
 ---
 
-## References
-
-* [https://documentation.wazuh.com](https://documentation.wazuh.com)
-* [https://attack.mitre.org](https://attack.mitre.org)
-
-```
-
----
-
-### ✅ What You Can Do Next
-If you want, I can:
-- Add **screenshots checklist** (what to capture for GitHub)
-- Write **resume bullets** from this project
-- Create a **LinkedIn post** to showcase it
-- Help you **tune FIM to reduce noise**
-- Add **custom Wazuh rules** for high-risk files
-
-Just tell me what you’d like next 👌
-```

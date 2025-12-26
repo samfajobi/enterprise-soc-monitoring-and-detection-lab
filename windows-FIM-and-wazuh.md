@@ -130,3 +130,56 @@ These actions simulate:
 * File deletion
 
 ---
+
+## Step 4: Monitor FIM Alerts in Wazuh Dashboard
+
+1. Log into the **Wazuh Dashboard**
+2. Navigate to **Security Events**
+3. Filter by:
+
+```
+agent.name: windows-server
+```
+
+Observe alerts related to:
+
+* File added
+* File modified
+* File deleted
+* Permission changes
+
+---
+
+## Step 5: SOC-Style Alert Analysis
+
+For each alert, analyze:
+
+* File path affected
+* Type of change
+* Timestamp
+* User account responsible
+* Whether the activity is authorized
+
+---
+
+## Windows Event IDs Used for Correlation
+
+| Event ID | Description                   |
+| -------- | ----------------------------- |
+| 4663     | File or object access         |
+| 4656     | Handle requested to an object |
+| 4660     | Object deleted                |
+| 4670     | Permissions changed           |
+| 4719     | Audit policy changed          |
+
+---
+
+## MITRE ATT&CK Mapping
+
+| Activity                       | Technique |
+| ------------------------------ | --------- |
+| Unauthorized file modification | T1565     |
+| Persistence via file changes   | T1547     |
+| Defense evasion                | T1070     |
+
+---
