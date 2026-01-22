@@ -35,4 +35,10 @@ The lab is designed to showcase **SOC workflows**, **detection engineering**, an
 
 ### Data Flow
 
-
+Windows / Active Directory / pfSense
+↓
+Splunk Universal Forwarder
+↓
+Splunk Enterprise SIEM
+↓
+Searches • Alerts • Dashboards
