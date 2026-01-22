@@ -35,10 +35,20 @@ The lab is designed to showcase **SOC workflows**, **detection engineering**, an
 
 ### Data Flow
 
-Windows / Active Directory / pfSense
-↓
-Splunk Universal Forwarder
-↓
-Splunk Enterprise SIEM
-↓
-Searches • Alerts • Dashboards
+Security events follow this pipeline:
+
+1. **Data Sources**
+   - Windows Endpoints
+   - Active Directory Domain Controller
+   - pfSense Firewall
+
+2. **Log Collection**
+   - Splunk Universal Forwarder collects and forwards logs
+
+3. **SIEM Processing**
+   - Splunk Enterprise indexes and processes events
+
+4. **SOC Operations**
+   - Correlation searches
+   - Alert generation
+   - Dashboards and investigations
