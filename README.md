@@ -109,6 +109,18 @@ This lab reflects how a SOC operates in practice:
 
 ---
 
-## 📁 Repository Structure
+## 🚨 Detections & Alerting
+
+Detection logic is written using **Splunk Processing Language (SPL)** and focuses on:
+
+- Authentication attacks
+- Brute-force activity
+- Privilege escalation
+- Suspicious administrative behavior
+- Network-based threats
+
+Detections are mapped to **MITRE ATT&CK techniques** to align with industry-standard threat models.
+
+---
 
 
