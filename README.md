@@ -52,3 +52,34 @@ Security events follow this pipeline:
    - Correlation searches
    - Alert generation
    - Dashboards and investigations
+
+
+---
+
+## 🔍 Monitoring Scope
+
+### Windows Endpoints
+- Authentication successes and failures
+- Account lockouts
+- Privilege and group membership changes
+- Process execution events
+
+### Active Directory
+- Domain logon activity
+- Administrative account usage
+- Privileged group modifications
+- Suspicious authentication patterns
+
+### pfSense Firewall
+- Allowed and blocked traffic
+- Port scanning indicators
+- Suspicious inbound/outbound connections
+- Network-based attack visibility
+
+---
+
+## ⚔️ Attack Simulation
+
+
+
+
