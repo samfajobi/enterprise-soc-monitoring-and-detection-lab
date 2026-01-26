@@ -32,6 +32,10 @@ pfSense serves as the core network firewall, providing routing, traffic control,
 4. Assign resources:
    - **Memory:** 1–2 GB (minimum)
    - **CPU:** 1–2 cores
+5. Attach pfSense ISO   
+   - **Go to **Settings → Storage**.
+   - Under Controller IDE, **attach the pfSense ISO file**.
+   - Confirm ISO is mounted.
 
 ![pfsense-setup](../screenshots/install-pfsense-vbox.png)
 
@@ -45,27 +49,20 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 - Attached to: **NAT**
 - Purpose: Provides internet access (WAN)
 
+![pfsense-setup](../screenshots/pfsense-NAT.png)
+
 ### Adapter 2 – LAN (Internal Network)
 - Enable Adapter
 - Attached to: **Internal Network**
 - Name: `intnet` (or any consistent name)
 - Purpose: Internal LAN for SOC lab systems
 
-![pfsense-setup](../screenshots/install-pfsense-vbox.png)
-![pfsense-setup](../screenshots/install-pfsense-vbox.png)
+![pfsense-setup](../screenshots/pfsense-LAN.png)
+
 
 ---
 
-## Step 4: Attach pfSense ISO
-1. Go to **Settings → Storage**.
-2. Under Controller IDE, attach the pfSense ISO file.
-3. Confirm ISO is mounted.
-
-📸 *Screenshot: pfSense ISO attached to VM*
-
----
-
-## Step 5: Start pfSense Installation
+## Step 4: Start pfSense Installation
 1. Start the pfSense VM.
 2. Select **Install pfSense** when prompted.
 3. Accept default options:
@@ -73,6 +70,8 @@ pfSense requires at least **two network interfaces** to function as a firewall.
    - Partitioning (Auto / UFS)
 4. Allow the installer to complete.
 
-📸 *Screenshot: pfSense installation screen*
+![pfsense-setup](../screenshots/pfsense-install-1.png)
+
+![pfsense-setup](../screenshots/pfsense-install-2.png)
 
 ---
