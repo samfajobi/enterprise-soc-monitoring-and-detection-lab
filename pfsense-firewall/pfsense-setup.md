@@ -75,3 +75,28 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 ![pfsense-setup](../screenshots/pfsense-install-2.png)
 
 ---
+
+## Step 5: Reboot and Remove ISO
+1. When installation completes, pfSense will prompt for a reboot.
+2. **Before rebooting**:
+   - Power off the VM (if required)
+   - Go to **Settings → Storage**
+   - Remove the pfSense ISO from the virtual optical drive
+
+⚠️ This step prevents the installer from looping on reboot.
+
+![pfsense-setup](../screenshots/pfsense-install-2.png)
+
+---
+
+## Step 7: Initial pfSense Boot
+1. Start the VM again.
+2. pfSense boots into the console menu.
+3. Interfaces are automatically detected:
+   - **WAN** → NAT adapter
+   - **LAN** → Internal Network adapter
+4. Default LAN IP is typically: 192.168.1.1/24
+
+![pfsense-setup](../screenshots/pfsense-install-2.png)
+
+---
