@@ -89,7 +89,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ---
 
-## Step 7: Initial pfSense Boot
+## Step 6: Initial pfSense Boot
 1. Start the VM again.
 2. pfSense boots into the console menu.
 3. Interfaces are automatically detected:
@@ -101,7 +101,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ---
 
-## Step 8: Verify pfSense is Running
+## Step 7: Verify pfSense is Running
 - pfSense console menu is accessible
 - WAN interface has an IP address
 - LAN interface is active
