@@ -72,6 +72,67 @@ A router connects **multiple networks** and directs traffic between them.
 
 ### Key Functions
 
+* Routes traffic between LAN and WAN
+* Performs NAT (Network Address Translation)
+* Assigns private IPs using DHCP
+* Provides basic firewall protection
+
+### OSI Layer
+
+* Layer 3 (Network)
+
+### Security Relevance
+
+* First line of network defense
+* Controls inbound/outbound traffic
+* Generates valuable logs for SOC analysis
+
+---
+
+## 4. Switch
+
+### What It Is
+
+A switch connects devices **within the same network** and forwards traffic intelligently using MAC addresses.
+
+### Key Functions
+
+* Reduces network collisions
+* Improves performance
+* Supports VLANs (advanced switches)
+
+### OSI Layer
+
+* Layer 2 (Data Link)
+* Layer 3 (Layer‑3 switches)
+
+### Security Relevance
+
+* VLAN segmentation limits attack spread
+* Used in enterprise network design
+
+---
+
+## 5. Hub
+
+### What It Is
+
+A hub is a basic networking device that broadcasts data to **all connected devices**.
+
+### Key Functions
+
+* Simple signal repeater
+* No traffic intelligence
+
+### OSI Layer
+
+* Layer 1 (Physical)
+
+### Security Relevance
+
+* Highly insecure
+* Susceptible to packet sniffing
+* Largely obsolete
 
 
 
