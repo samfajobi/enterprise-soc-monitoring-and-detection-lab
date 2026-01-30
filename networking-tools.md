@@ -235,6 +235,27 @@ DHCP automatically assigns IP addresses to devices.
 
 A VPN encrypts traffic between a device and a network.
 
+### Security Relevance
+
+* Secure remote access
+* VPN logs are critical during investigations
+
+---
+
+## 12. Proxy Server
+
+### What It Is
+
+A proxy acts as an intermediary between clients and the internet.
+
+### Security Relevance
+
+* Web filtering
+* Traffic inspection
+* User activity monitoring
+
+---
+
 
 
 
