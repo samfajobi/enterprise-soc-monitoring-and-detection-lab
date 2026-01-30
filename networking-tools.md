@@ -26,6 +26,24 @@ This repository documents **core networking tools, devices, and technologies**, 
 
 ---
 
+## 1. Overview
+
+Computer networks are built using multiple devices and technologies, each with a **specific responsibility**. Understanding these tools is critical for:
+
+* Network troubleshooting
+* Cloud architecture
+* Security monitoring (SOC)
+* Incident response
+
+This documentation focuses on **what each tool does**, **where it operates (OSI layers)**, and **its security relevance**.
+
+---
+
+## 2. Modem (Modulator–Demodulator)
+
+### What It Is
+
+A modem connects a private network to an **Internet Service Provider (ISP)** 
 
 
 
