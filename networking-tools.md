@@ -43,7 +43,35 @@ This documentation focuses on **what each tool does**, **where it operates (OSI 
 
 ### What It Is
 
-A modem connects a private network to an **Internet Service Provider (ISP)** 
+A modem connects a private network to an **Internet Service Provider (ISP)** by translating ISP signals into digital data.
+
+### Key Functions
+
+* Converts ISP signals (fiber, cable, DSL) into Ethernet data
+* Assigns a public IP address (from ISP)
+* Acts as the gateway to the internet
+
+### OSI Layer
+
+* Layer 1 (Physical)
+* Layer 2 (Data Link)
+
+### Security Relevance
+
+* Limited visibility and control
+* Often managed by ISP
+* Rarely provides detailed logs
+
+---
+
+## 3. Router
+
+### What It Is
+
+A router connects **multiple networks** and directs traffic between them.
+
+### Key Functions
+
 
 
 
