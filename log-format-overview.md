@@ -25,6 +25,45 @@ Logs help security teams to:
 
 Logs are one of the most important data sources in a Security Operations Center (SOC).
 
+---
+
+## JavaScript Object Notation (JSON)
+
+JavaScript Object Notation (JSON) is a file format used to store and transmit data. It is lightweight, easy to read, and easy to write. JSON is widely used in web technologies, APIs, and cloud environments.
+
+JSON syntax is derived from JavaScript and commonly includes:
+* Key-value pairs
+* Commas
+* Double quotes
+* Curly brackets
+* Square brackets
+
+---
+
+### Key-Value Pairs
+
+A key-value pair represents two linked pieces of data: a key and its corresponding value. A key-value pair consists of a key, followed by a colon, and then a value.
+
+Example:
+```json
+"Alert": "Malware"
+````
+
+For readability, it is recommended to include a space after the colon.
+
+---
+
+### Commas
+
+Commas are used to separate multiple key-value pairs.
+
+Example:
+
+```json
+"Alert": "Malware", "AlertCode": 1090, "Severity": 10
+```
+
+---
 
 
 
