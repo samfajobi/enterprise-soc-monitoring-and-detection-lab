@@ -140,7 +140,97 @@ Syslog is the native logging format used in Unix and Linux systems and is common
 
 ---
 
+### Syslog Service
 
+The syslog service:
+
+* Receives logs from multiple sources
+* Forwards logs to a central server
+* Enables centralized log management
+
+---
+
+### Syslog Log Format
+
+A syslog log entry consists of:
+
+* Priority (PRI)
+* Header
+* Structured data (optional)
+* Message
+
+Example:
+
+```text
+<236>1 2022-03-21T01:11:11.003Z virtual.machine.com evntslog ID01
+[user@32473 iut="1" eventSource="Application" eventID="9999"]
+This is a log entry!
+```
+
+---
+
+### Header
+
+The header contains:
+
+* Timestamp
+* Hostname
+* Application name
+* Message ID
+
+---
+
+### Timestamp
+
+Example:
+
+```text
+2022-03-21T01:11:11.003Z
+```
+
+* Date format: YYYY-MM-DD
+* Time format: 24-hour
+* Z indicates UTC timezone
+
+---
+
+### Structured Data
+
+Structured data is enclosed in square brackets and written in key-value pairs.
+
+Example:
+
+```text
+[user@32473 iut="1" eventSource="Application" eventID="9999"]
+```
+
+---
+
+### Message
+
+The message contains the detailed description of the event.
+
+Example:
+
+```text
+This is a log entry!
+```
+
+---
+
+### Priority (PRI)
+
+The PRI field indicates the urgency of the event and is enclosed in angle brackets.
+
+Example:
+
+```text
+<236>
+```
+
+Lower priority values indicate more urgent events.
+
+---
 
 
 
