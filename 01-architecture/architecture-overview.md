@@ -1,5 +1,7 @@
 # SOC Architecture Overview
 
+![Enterprise-soc-architecture](../images/Enterprise-soc-monitoring-architecuture.png)
+
 ## Purpose
 This document describes the architecture of the Enterprise SOC Monitoring environment used in this project. The architecture is designed to simulate a real-world enterprise network where logs from identity, endpoint, and network security controls are centrally collected, analyzed, and monitored by a Security Operations Center (SOC).
 
@@ -113,6 +115,26 @@ This log flow mirrors how enterprise SOCs achieve centralized visibility and det
 
 ---
 
+## SOC Monitoring Perspective
+From a SOC analyst perspective, this architecture enables:
 
+- Identity threat monitoring (Active Directory)
+- Endpoint behavior analysis (Windows)
+- Network traffic visibility (pfSense)
+- Correlation-driven detections (Splunk)
+- Incident response and investigation workflows
+
+The architecture supports both **real-time alerting** and **historical analysis**, which are essential SOC capabilities.
+
+---
+
+## Architecture Design Principles
+The environment was designed with the following principles:
+
+- Centralized logging
+- Defense-in-depth visibility
+- Detection-focused telemetry
+- SOC operational realism
+- Scalability for future enhancements
 
 ---
