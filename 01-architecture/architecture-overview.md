@@ -39,7 +39,40 @@ These logs are critical for detecting identity-based threats such as brute force
 
 ---
 
+### Windows 10 Endpoint
+The Windows 10 system represents a typical enterprise user workstation joined to the domain.
 
+**Responsibilities:**
+- User activity execution
+- Endpoint-level security telemetry generation
+
+**Security Telemetry Generated:**
+- Process creation events
+- Command-line execution
+- User logon activity
+- Persistence mechanisms
+
+Endpoint telemetry provides visibility into suspicious execution behavior and post-compromise activity.
+
+---
+
+### pfSense Firewall
+The pfSense firewall acts as the primary network security control and traffic inspection point.
+
+**Responsibilities:**
+- Network traffic filtering and logging
+- Visibility into inbound and outbound connections
+- Internal traffic monitoring
+
+**Security Telemetry Generated:**
+- Connection attempts
+- Source and destination IPs
+- Port and protocol usage
+- Suspicious traffic patterns
+
+Firewall logs support detection of port scanning, lateral movement, and anomalous network behavior.
+
+---
 
 
 
