@@ -59,6 +59,49 @@ This project collects and analyzes logs from the following sources:
   - Account and group management changes
   - Privilege escalation activity
 
+- **Windows Security Logs**
+  - Process creation
+  - Command-line execution
+  - Persistence mechanisms
+
+- **pfSense Firewall Logs**
+  - Connection attempts
+  - Port scanning behavior
+  - Suspicious internal traffic patterns
+
+---
+
+## Detection Coverage
+The SOC detections implemented in this project are grouped into three major categories:
+
+### Identity-Based Threats
+- Excessive failed logon attempts
+- Password spraying indicators
+- Unauthorized privilege escalation
+- Suspicious administrative activity
+
+### Endpoint-Based Threats
+- Suspicious process execution
+- Abnormal PowerShell usage
+- Persistence mechanisms (scheduled tasks, startup entries)
+
+### Network-Based Threats
+- Port scanning activity
+- Suspicious internal lateral movement
+- Unusual traffic patterns
+
+Each detection includes:
+- Detection objective
+- Data sources used
+- Detection logic
+- False positive considerations
+- Severity classification
+- MITRE ATT&CK mapping
+- Recommended response actions
+
+---
+
+## Incident Response Workflow
 
 
 
