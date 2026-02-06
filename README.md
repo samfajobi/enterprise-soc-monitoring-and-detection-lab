@@ -149,4 +149,35 @@ A full end-to-end incident simulation ties together multiple detections, demonst
 
 ---
 
+## Tools & Technologies
+- Active Directory
+- Windows 10
+- pfSense Firewall
+- Splunk SIEM
+- Kali Linux
+- MITRE ATT&CK Framework
 
+---
+
+## Skills Demonstrated
+- Security monitoring and log analysis
+- SIEM detection engineering
+- SOC alert triage and investigation
+- Incident response documentation
+- Network and identity security fundamentals
+- Enterprise SOC workflows
+
+---
+
+## Disclaimer
+This project is for **educational and defensive security purposes only**.  
+All attack simulations are performed in a controlled lab environment and are intended solely to generate security events for detection and response practice.
+
+---
+
+## Future Enhancements
+- SOAR-style automated responses
+- Additional endpoint telemetry
+- Cloud-based log ingestion
+- Expanded threat intelligence integrations
+- Detection tuning and optimization
