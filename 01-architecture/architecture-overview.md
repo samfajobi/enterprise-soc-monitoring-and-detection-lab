@@ -1,4 +1,4 @@
-# SOC Architecture Overview
+# Enterprise SOC Architecture Overview
 
 ![Enterprise-soc-architecture](../images/Enterprise-soc-monitoring-architecuture.png)
 
