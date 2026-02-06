@@ -102,6 +102,51 @@ Each detection includes:
 ---
 
 ## Incident Response Workflow
+This project simulates real SOC workflows, including:
 
+1. Alert generation in Splunk
+2. Alert validation and triage
+3. Log-based investigation
+4. Severity classification
+5. Containment and remediation actions
+6. Incident closure and documentation
+
+Incident response playbooks are included to demonstrate structured and repeatable response procedures.
+
+---
+
+## Dashboards
+Multiple Splunk dashboards are created to support SOC operations, including:
+
+- SOC overview dashboard
+- Identity activity dashboard
+- Endpoint security dashboard
+- Network traffic dashboard
+
+Dashboards are designed for both **SOC analysts** and **security management visibility**.
+
+---
+
+## Threat Intelligence
+Basic threat intelligence concepts are incorporated, including:
+
+- Indicator of Compromise (IOC) management
+- IP and hash matching using lookup tables
+- Alert enrichment and validation
+- False positive handling
+
+---
+
+## Capstone Incident
+A full end-to-end incident simulation ties together multiple detections, demonstrating:
+
+- Attack progression
+- Alert correlation
+- Timeline analysis
+- MITRE ATT&CK technique mapping
+- Root cause analysis
+- Lessons learned
+
+---
 
 
