@@ -176,8 +176,6 @@ All attack simulations are performed in a controlled lab environment and are int
 ---
 
 ## Future Enhancements
-- SOAR-style automated responses
 - Additional endpoint telemetry
-- Cloud-based log ingestion
 - Expanded threat intelligence integrations
 - Detection tuning and optimization
