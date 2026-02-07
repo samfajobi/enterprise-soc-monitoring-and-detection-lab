@@ -36,6 +36,10 @@ Active Directory serves as the **central identity and authentication system**, e
 Note: Although some lab environments function without a static IP,
 Microsoft best practice requires Domain Controllers to use a static IP
 to ensure DNS and authentication reliability.
+The Domain Controller is configured with a static IP address to ensure
+consistent DNS resolution, authentication stability, and reliable log
+correlation for SOC analysis. Client and test machines use DHCP to
+simulate real-world user environments.
 
 
 ---
