@@ -31,7 +31,7 @@ Active Directory serves as the **central identity and authentication system**, e
 - Assign a **static IPv4 address**
 - Set **Preferred DNS** to the server’s own IP
 
-📷 *Screenshot: IPv4 configuration*
+![AD-setup-1](../../images/splunk-setup-1.png) 
 
 Note: Although some lab environments function without a static IP,
 Microsoft best practice requires Domain Controllers to use a static IP
@@ -40,7 +40,12 @@ The Domain Controller is configured with a static IP address to ensure
 consistent DNS resolution, authentication stability, and reliable log
 correlation for SOC analysis. Client and test machines use DHCP to
 simulate real-world user environments.
+A static IP ensures the Domain Controller and DNS services are always reachable at a consistent address, which is required for reliable authentication and domain operations.
 
+If your **DC’s IP changes**:
+ - Log correlation becomes messy
+ - Alerts may break
+ - Detection rules can misfire
 
 ---
 

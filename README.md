@@ -1,5 +1,7 @@
 # Enterprise SOC Monitoring Project
 
+![Enterprise-soc-architecture](images/Enterprise-soc-monitoring-architecuture.png)
+
 ## Overview
 This project simulates a real-world **Enterprise Security Operations Center (SOC)** environment focused on centralized logging, threat detection, alerting, and incident response.
 
