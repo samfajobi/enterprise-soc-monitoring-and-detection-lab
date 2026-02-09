@@ -18,7 +18,7 @@ pfSense serves as the core network firewall, providing routing, traffic control,
 2. Download the **pfSense CE ISO Installer** (AMD64).
 3. Save the ISO file locally.
 
-![pfsense-setup](../screenshots/pfsense-download.png)
+![pfsense-setup](../../images/pfsense-download.png)
 
 ---
 
@@ -37,7 +37,7 @@ pfSense serves as the core network firewall, providing routing, traffic control,
    - Under Controller IDE, **attach the pfSense ISO file**.
    - Confirm ISO is mounted.
 
-![pfsense-setup](../screenshots/install-pfsense-vbox.png)
+![pfsense-setup](../../images/install-pfsense-vbox.png)
 
 ---
 
@@ -49,7 +49,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 - Attached to: **NAT**
 - Purpose: Provides internet access (WAN)
 
-![pfsense-setup](../screenshots/pfsense-NAT.png)
+![pfsense-setup](../../images/pfsense-NAT.png)
 
 ### Adapter 2 – LAN (Internal Network)
 - Enable Adapter
@@ -57,7 +57,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 - Name: `intnet` (or any consistent name)
 - Purpose: Internal LAN for SOC lab systems
 
-![pfsense-setup](../screenshots/pfsense-LAN.png)
+![pfsense-setup](../../images/pfsense-LAN.png)
 
 
 ---
@@ -70,9 +70,9 @@ pfSense requires at least **two network interfaces** to function as a firewall.
    - Partitioning (Auto / UFS)
 4. Allow the installer to complete.
 
-![pfsense-setup](../screenshots/pfsense-install-1.png)
+![pfsense-setup](../../images/pfsense-install-1.png)
 
-![pfsense-setup](../screenshots/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-2.png)
 
 ---
 
@@ -85,7 +85,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ⚠️ This step prevents the installer from looping on reboot.
 
-![pfsense-setup](../screenshots/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-2.png)
 
 ---
 
@@ -97,7 +97,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
    - **LAN** → Internal Network adapter
 4. Default LAN IP is typically: 192.168.1.1/24
 
-![pfsense-setup](../screenshots/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-2.png)
 
 ---
 
@@ -107,7 +107,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 - LAN interface is active
 - Firewall is ready to route traffic
 
-![pfsense-setup](../screenshots/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-2.png)
 
 ---
 
@@ -117,7 +117,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 - Connect other lab systems (AD, Splunk, Kali, Security Onion)
 - Begin SOC monitoring and attack simulations
 
-![pfsense-setup](../screenshots/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-2.png)
 
 ---
 
