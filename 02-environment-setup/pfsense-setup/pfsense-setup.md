@@ -73,25 +73,27 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 ![pfsense-setup](../../images/pfsense-install-1.png)
 
 #### Click Accept
-
 ![pfsense-setup](../../images/pfsense-install-2.png)
 
-#### Click **OK**
-
+#### Click **OK*
 ![pfsense-setup](../../images/pfsense-install-3.png)
 
-#### Click **Install CE**
+#### Click **Install CE*
 ![pfsense-setup](../../images/pfsense-install-3a.png)
 
+#### Click **OK*
 ![pfsense-setup](../../images/pfsense-install-3b.png)
 
+#### Click **OK*
 ![pfsense-setup](../../images/pfsense-install-3c.png)
 
+#### Click **Yes*
 ![pfsense-setup](../../images/pfsense-install-3d.png)
 
+#### Click **OK*
 ![pfsense-setup](../../images/pfsense-install-3e.png)
 
-### Wait for a while, installation might take a while depending on your network speed.
+#### Wait for a while, installation might take a while depending on your network speed.
 
 ![pfsense-setup](../../images/pfsense-install-3f.png)
 
@@ -128,9 +130,10 @@ Now Click **Remove**
    - **WAN** → NAT adapter
    - **LAN** → Internal Network adapter
 4. Default LAN IP is typically: 192.168.1.1/24
+   - **Ensure to write the IP address of the WAN and LAN somewheree, you'd need them as we proceed**
 
 ![pfsense-setup](../../images/pfsense-install-5.png)
-
+   
 ### Note: **In some article, the steps might require you to setup the WAN and LAN ater starting the VM **
 
 ---
