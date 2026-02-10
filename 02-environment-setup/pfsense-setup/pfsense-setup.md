@@ -74,6 +74,20 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ![pfsense-setup](../../images/pfsense-install-2.png)
 
+![pfsense-setup](../../images/pfsense-install-3.png)
+
+![pfsense-setup](../../images/pfsense-install-3a.png)
+
+![pfsense-setup](../../images/pfsense-install-3b.png)
+
+![pfsense-setup](../../images/pfsense-install-3c.png)
+
+![pfsense-setup](../../images/pfsense-install-3d.png)
+
+![pfsense-setup](../../images/pfsense-install-3e.png)
+
+![pfsense-setup](../../images/pfsense-install-3f.png)
+
 ---
 
 ## Step 5: Reboot and Remove ISO
@@ -87,7 +101,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ![pfsense-setup](../../images/pfsense-install-2.png)
 
-Note **after deleting the ISO file, pfSense then boots from this below**
+### Note: **after deleting the ISO file, pfSense then boots from this below**
 
 ![pfsense-setup](../../images/pfsense-install-2.png)
 
@@ -103,6 +117,8 @@ Note **after deleting the ISO file, pfSense then boots from this below**
 4. Default LAN IP is typically: 192.168.1.1/24
 
 ![pfsense-setup](../../images/pfsense-install-5.png)
+
+### Note: **In some article, the steps might require you to setup the WAN and LAN ater starting the VM **
 
 ---
 
