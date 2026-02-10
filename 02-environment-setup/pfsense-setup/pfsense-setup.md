@@ -88,6 +88,8 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ![pfsense-setup](../../images/pfsense-install-3f.png)
 
+### Perfect!!!! You are doing well!!!!! Let's proceed.
+
 ---
 
 ## Step 5: Reboot and Remove ISO
@@ -99,11 +101,15 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ⚠️ Why? This step prevents the installer from looping on reboot.
 
-![pfsense-setup](../../images/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-4.png)
+
+Now press delete
+
+![pfsense-setup](../../images/pfsense-install-4a.png)
 
 ### Note: **after deleting the ISO file, pfSense then boots from this below**
 
-![pfsense-setup](../../images/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-4b.png)
 
 
 ---
