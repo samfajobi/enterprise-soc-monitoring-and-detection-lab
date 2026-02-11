@@ -143,15 +143,18 @@ Now Click **Remove**
 - Go to network
 - Change Adapter 1
 - Attached to: **Internal Network**
-- Now your VM is on same LAN interface with the pfSense firewall
+- Ubuntu got an IP from pfSense
+- Now pfSense and VM are on the same virtual Layer-2 network
 - Firewall is ready to route traffic from the VM to the internet
 
 ![pfsense-setup](../../images/pfsense-install-6.png)
 
 #### Why this step matters
-- Reduces deployment risk
-- Improves pipeline reliability
-- Aligns with CI/CD best practices
+- A firewall sits between networks.
+- For pfSense to protect your VM (say Ubuntu):
+  - Ubuntu must send its traffic through pfSense
+  - That only happens if Ubuntu’s default gateway = pfSense LAN IP.
+  - And that only works if Ubuntu is on the same Layer-2 network as pfSense LAN.
 
 ---
 
