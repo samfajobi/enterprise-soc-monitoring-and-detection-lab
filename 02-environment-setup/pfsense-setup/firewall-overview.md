@@ -109,6 +109,44 @@ Firewalls evaluate traffic on ingress (when it enters an interface).
 
 ---
 
+## 🏢 How Firewalls Are Used in Organizations
 
+Firewalls are deployed at multiple layers in enterprise environments.
+
+## 1. Perimeter Firewall
+* Sits between internal network and internet
+* Controls north-south traffic
+* Performs NAT
+* Blocks unsolicited inbound traffic
+
+## 2. Internal Segmentation Firewall
+* Controls east-west traffic
+* Separates user VLANs from server VLANs
+* Restricts lateral movement
+
+## 3. Data Center Firewall
+* Protects critical infrastructure
+* Controls access to databases and domain controllers
+
+## 4. Cloud Firewall
+* Protects cloud workloads
+* Controls VPC/VNet traffic
+
+---
+
+## 🔐 Network Segmentation
+
+Segmentation divides a network into smaller zones to limit the spread of attacks.
+
+Example:
+
+User VLAN → Can access Internet  
+User VLAN → Can access Server VLAN only on required ports  
+Guest VLAN → Cannot access internal networks  
+Server VLAN → Limited outbound access  
+
+Segmentation enforces least privilege and reduces blast radius during breaches.
+
+---
 
 
