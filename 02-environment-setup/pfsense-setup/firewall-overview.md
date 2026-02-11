@@ -171,4 +171,43 @@ Firewalls are a primary log source in enterprise SIEM platforms.
 
 ---
 
+## 🚨 Why Firewalls Matter in Security Operations
 
+Without a firewall:
+* Flat networks increase risk
+* Malware spreads easily
+* No visibility into traffic
+* No enforcement of access control
+
+With proper firewall architecture:
+* Access is controlled
+* Movement is restricted
+* Suspicious activity is logged
+* Incidents are easier to investigate
+
+---
+
+## 🧠 Key Security Principles Enforced by Firewalls
+
+* Default Deny
+* Least Privilege
+* Segmentation
+* Defense in Depth
+* Visibility and Monitoring
+
+---
+
+## 📌 Summary
+
+A firewall is not just a traffic blocker.
+
+It is a policy enforcement engine that protects organizational assets, enforces trust boundaries, and provides visibility for security operations.
+
+In enterprise environments, firewalls:
+
+* Separate trusted and untrusted networks
+* Control user and server access
+* Protect critical infrastructure
+* Enable SOC monitoring and threat detection
+
+A properly configured firewall is foundational to any secure network architecture.
