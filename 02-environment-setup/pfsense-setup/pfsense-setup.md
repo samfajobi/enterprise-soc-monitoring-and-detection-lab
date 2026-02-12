@@ -201,9 +201,15 @@ There are more Steps for this project, the steps above are just for one LAN for 
 - Adapter 3 → Internal_Net_Servers(Active Directory, Splunk)
 - Adapter 4 → Internal_Net_RedTeam(Kali Linux)
 
-Each adapter becomes a separate interface in pfSense.
+![pfsense-setup](../../images/pfsense-install-6f.png)
 
-![pfsense-setup](../../images/pfsense-install-6b.png)
+![pfsense-setup](../../images/pfsense-install-6c.png)
+
+![pfsense-setup](../../images/pfsense-install-6d.png)
+
+![pfsense-setup](../../images/pfsense-install-6e.png)
+
+Each adapter becomes a separate interface in pfSense.
 
 ---
 
