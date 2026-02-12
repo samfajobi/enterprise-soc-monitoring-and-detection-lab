@@ -57,7 +57,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 - Name: `intnet` (or any consistent name)
 - Purpose: Internal LAN for SOC lab systems
 
-![pfsense-setup](../../images/pfsense-LAN.png)
+![pfsense-setup](../../images/pfsense-install-6c.png)
 
 
 ---
@@ -188,6 +188,22 @@ That’s the core idea of a firewall.
 - Begin SOC monitoring and attack simulations
 
 ![pfsense-setup](../../images/pfsense-install-2.png)
+
+---
+
+There are more Steps for this project, the steps above are just for one LAN for the pfSense, but in this project, I would segmenting my network by creating different VLANs for the endpoints(Windows, Ubuntu), Active Directory, Splunk and Kali linux
+
+## Step 9: Network Segmentation
+- Click the VM and go to settings
+- Go to network
+- Adapter 1 → NAT (WAN)
+- Adapter 2 → Internal_Net_Users(Windows 10, Ubuntu)
+- Adapter 3 → Internal_Net_Servers(Active Directory, Splunk)
+- Adapter 4 → Internal_Net_RedTeam(Kali Linux)
+
+Each adapter becomes a separate interface in pfSense.
+
+![pfsense-setup](../../images/pfsense-install-6b.png)
 
 ---
 
