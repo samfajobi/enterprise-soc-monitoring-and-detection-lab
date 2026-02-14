@@ -60,3 +60,34 @@ Atomic Red Team provides:
  - Cleanup steps
 
 So you can simulate that behavior and check if your SIEM detects it.
+
+
+
+## What It Actually Does
+
+Atomic tests simulate things like:
+
+ - Credential dumping behavior
+
+ - PowerShell abuse
+
+ - Scheduled task persistence
+
+ - Registry modification
+
+ - Lateral movement techniques
+
+ - Suspicious command-line activity
+
+Each “atomic test” is:
+
+ - Small
+
+ - Controlled
+
+ - Specific to one technique
+
+ - Easy to clean up
+
+It’s not a full malware tool.
+It’s controlled security validation.
