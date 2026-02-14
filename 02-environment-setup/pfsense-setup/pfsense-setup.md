@@ -221,7 +221,7 @@ Each adapter becomes a separate interface in pfSense.
 ---
 
 ## Step 10: Placing VMs in their respective VLANs
-- After the Vlans have been created, we then proceed to place VMs(ubuntu, windows etc) in their respective VMs as needed.
+- After the Vlans have been created, we then proceed to place VMs(ubuntu, windows etc) in their respective VLANs as needed.
 
 ---
 
@@ -239,3 +239,5 @@ This pfSense installation forms the foundation of an enterprise-style SOC lab, e
 **Olusegun Fajobi**
 Cybersecurity Engineer (Blue & Red Team)
 GitHub: [https://github.com/samfajobi](https://github.com/samfajobi)
+
+
