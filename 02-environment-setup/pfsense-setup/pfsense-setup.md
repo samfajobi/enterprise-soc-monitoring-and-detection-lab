@@ -223,6 +223,14 @@ Each adapter becomes a separate interface in pfSense.
 ## Step 10: Placing VMs in their respective VLANs
 - After the Vlans have been created, we then proceed to place VMs(ubuntu, windows etc) in their respective VLANs as needed.
 
+![pfsense-setup](../../images/pfsense-install-8.png)
+
+![pfsense-setup](../../images/pfsense-install-8a.png)
+
+![pfsense-setup](../../images/pfsense-install-8b.png)
+
+![pfsense-setup](../../images/pfsense-install-8c.png)
+
 ---
 
 ## Lab Purpose
