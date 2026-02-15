@@ -191,5 +191,13 @@ Click **Next**.
 
 ---
 
+## ✅ Step 9: Review & Install
+
+1. Review configuration summary
+2. Verify **Prerequisites Check** passes
+3. Click **Install**
+4. Server will automatically reboot
+
+---
 
 
