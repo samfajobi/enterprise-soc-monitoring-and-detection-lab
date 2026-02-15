@@ -177,7 +177,19 @@ The Domain Controller will now act as:
 
 ---
 
+## 📂 Step 8: AD Database Paths
 
+Leave defaults unless simulating advanced enterprise storage layouts.
+
+- NTDS database
+- Logs
+- SYSVOL
+
+Defaults are appropriate for SOC labs.
+
+Click **Next**.
+
+---
 
 
 
