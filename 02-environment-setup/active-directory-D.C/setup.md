@@ -26,8 +26,18 @@ Active Directory serves as the **central identity and authentication system**, e
 
 ---
 
+![AD-setup-1](../../images/Active-Directory-setup.png) 
+
 ## ⚙️ Step 1: Configure Static IP
-- Open **Network Adapter Settings**
+- Clikc on **Settings**
+- Open **Network & Internet**
+![AD-setup-1](../../images/AD-setup.png) 
+- Open **Change Adapter Options**
+![AD-setup-1](../../images/AD-setup-01.png) 
+- RIght click and click on **Properties**
+![AD-setup-1](../../images/AD-setup-01.png)
+- Assign a **static IPv4 address**
+![AD-setup-1](../../images/AD-setup-01.png)
 - Assign a **static IPv4 address**
 - Set **Preferred DNS** to the server’s own IP
 
