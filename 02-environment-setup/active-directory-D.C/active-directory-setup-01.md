@@ -48,6 +48,8 @@ Active Directory serves as the **central identity and authentication system**, e
 
 - Click **Use the following IP address** and Assign a **static IPv4 address** in the box
 
+![AD-setup-1](../../images/AD-setup-04.png)
+
 **How to pick an IP Address**: 
 Pick an address:
  - Inside the LAN subnet
