@@ -55,7 +55,25 @@ Then:
 
 ```
 Enter subnet bit count:
+```
 
+For a /24 network:
+```
+24
+```
+
+When asked for upstream gateway:
+```
+Press Enter (leave blank)
+```
+
+LAN does NOT require an upstream gateway.
+
+---
+
+# Step 4: Enable DHCP Server on LAN
+
+You will then see:
 
 
 
