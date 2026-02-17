@@ -175,7 +175,43 @@ And verify mapping.
 
 ---
 
+# Lab Network Example Structure
 
+Users LAN:
+```
+192.168.10.0/24
+Gateway: 192.168.10.1
+DHCP Range: 192.168.10.100 - 192.168.10.200
+```
+
+Servers LAN:
+```
+192.168.20.0/24
+Gateway: 192.168.20.1
+DHCP Range: 192.168.20.100 - 192.168.20.200
+```
+
+RedTeam LAN:
+```
+192.168.30.0/24
+Gateway: 192.168.30.1
+DHCP Range: 192.168.30.100 - 192.168.30.200
+```
+
+---
+
+# Final Checklist
+
+- [ ] LAN interface set to Static
+- [ ] Correct subnet mask
+- [ ] DHCP enabled
+- [ ] VM adapter names match
+- [ ] Client successfully receives IP
+- [ ] Can access pfSense GUI
+
+---
+
+✅ LAN configuration complete.
 
 
 
