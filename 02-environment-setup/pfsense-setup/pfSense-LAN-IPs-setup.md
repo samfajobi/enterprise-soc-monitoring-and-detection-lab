@@ -21,5 +21,12 @@ Select the LAN interface when prompted.
 
 You will see:
 
+``
+
+
+
+
+
+
 
 
