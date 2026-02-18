@@ -21,5 +21,36 @@ Domain-joining a workstation allows:
 
 ---
 
+## Prerequisites
+
+Before attempting to join the domain, confirm:
+
+- Domain Controller is online and promoted
+- DNS is functioning on the DC
+- Client has network connectivity to the DC
+- Client is using the **DC as its DNS server**
+- Domain Administrator credentials are available
+
+---
+
+## Step 1: Verify Network Configuration on Windows 10 Client
+
+On the Windows 10 endpoint, open **Command Prompt** and run: ipconfig/all
+
+
+Confirm:
+- DHCP Enabled: Yes
+- IPv4 Address: Within LAN subnet
+- Default Gateway: pfSense LAN IP (e.g. 192.168.1.1)
+- DNS Server: Domain Controller IP (e.g. 192.168.1.10)
+
+⚠️ If DNS does not point to the Domain Controller, the domain join will fail.
+
+---
+
+## Step 2: Verify DNS Resolution to the Domain
+
+Run: nslookup corp.local
+
 
 
