@@ -83,6 +83,36 @@ To follow enterprise naming standards:
    - Join this device to a local Active Directory domain
 5. Enter the domain name:
    - corp.local
+6. Click **Next**
+
+---
+
+## Step 5: Authenticate with Domain Credentials
+
+When prompted, enter domain administrator credentials:
+ - Username: CORP\Administrator
+ - Password: ********
+
+
+If authentication is successful:
+- You will see a welcome message
+- You will be prompted to restart
+
+---
+
+## Step 6: Restart the Endpoint
+
+Click **Restart now** to complete the domain join process.
+
+---
+
+## Step 7: Log In Using Domain Credentials
+
+After reboot:
+
+1. At the login screen, select **Other user**
+2. Log in with:
+
 
 
 
