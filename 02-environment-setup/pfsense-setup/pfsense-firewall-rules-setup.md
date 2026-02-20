@@ -26,7 +26,7 @@ Run initial setup wizard.
 
 ---
 
-# 6. Initial Setup Wizard
+# 2. Initial Setup Wizard
 
 Configure:
 
@@ -41,7 +41,7 @@ Finish setup.
 
 ---
 
-# 7. Enable and Configure Additional Interfaces
+# 3. Enable and Configure Additional Interfaces
 
 Go to:
 
@@ -60,7 +60,7 @@ Save and Apply.
 
 ---
 
-# 8. Configure Firewall Rules
+# 4. Configure Firewall Rules
 
 By default, new interfaces block all traffic.
 
@@ -88,7 +88,7 @@ Rules apply where traffic enters.
 
 ---
 
-# 9. Configure Outbound NAT
+# 5. Configure Outbound NAT
 
 Go to:
 
@@ -110,7 +110,7 @@ This ensures:
 
 ---
 
-# 10. Verify Connectivity
+# 6. Verify Connectivity
 
 From client VM:
 
@@ -130,7 +130,7 @@ All should succeed.
 
 ---
 
-# 11. Enable DNS Resolver
+# 7. Enable DNS Resolver
 
 Go to:
 
@@ -152,7 +152,7 @@ DNS: 192.168.x.1
 
 ---
 
-# 12. Configure Inter-VLAN Routing (Optional Hardening Later)
+# 8. Configure Inter-VLAN Routing (Optional Hardening Later)
 
 Currently:
 
@@ -166,7 +166,7 @@ Later for segmentation:
 
 ---
 
-# 13. Enable Logging
+# 9. Enable Logging
 
 Ensure logging is enabled under:
 
@@ -189,20 +189,20 @@ Enable:
 
 ---
 
-# 14. Validation Checklist
+# 10. Validation Checklist
 
-- [ ] WAN receives IP
-- [ ] LAN interfaces enabled
-- [ ] DHCP working on each VLAN
-- [ ] Firewall rules created per interface
-- [ ] Outbound NAT set to Automatic
-- [ ] Clients can reach internet
-- [ ] DNS resolving
-- [ ] Logs visible in System Logs
+- [x] WAN receives IP
+- [x] LAN interfaces enabled
+- [x] DHCP working on each VLAN
+- [x] Firewall rules created per interface
+- [x] Outbound NAT set to Automatic
+- [x] Clients can reach internet
+- [x] DNS resolving
+- [x] Logs visible in System Logs
 
 ---
 
-# 15. Final Architecture Flow
+# Final Architecture Flow
 
 Traffic Path:
 
