@@ -72,7 +72,41 @@ Go to:
 Firewall → Rules → [Interface]
 ```
 
+Add rule:
 
+| Field | Value |
+|--------|--------|
+| Action | Pass |
+| Protocol | Any |
+| Source | [Interface] net |
+| Destination | Any |
+
+Save → Apply Changes.
+
+Important:  
+Rules apply where traffic enters.
+
+---
+
+# 5. Configure Outbound NAT
+
+Go to:
+
+```
+Firewall → NAT → Outbound
+```
+
+Select:
+
+```
+Automatic outbound NAT rule generation
+```
+
+Save → Apply.
+
+This ensures:
+
+- All internal subnets are translated to WAN IP.
 
 ---
 
