@@ -152,7 +152,55 @@ DNS: 192.168.x.1
 
 ---
 
+# 8. Configure Inter-VLAN Routing (Optional Hardening Later)
 
+Currently:
+
+All VLANs can talk to each other.
+
+Later for segmentation:
+
+- Create specific allow rules
+- Block lateral movement
+- Restrict Red Team access
+
+---
+
+# 9. Enable Logging
+
+Ensure logging is enabled under:
+
+```
+Status → System Logs
+```
+
+For future SIEM integration:
+
+```
+Status → System Logs → Settings
+```
+
+Enable:
+
+- Remote logging (Syslog)
+- Select Firewall Events
+- Select System Events
+- Enter SIEM IP address
+
+---
+
+# 10. Validation Checklist
+
+- [x] WAN receives IP
+- [x] LAN interfaces enabled
+- [x] DHCP working on each VLAN
+- [x] Firewall rules created per interface
+- [x] Outbound NAT set to Automatic
+- [x] Clients can reach internet
+- [x] DNS resolving
+- [x] Logs visible in System Logs
+
+---
 
 
 ---
